@@ -1,9 +1,9 @@
-import clsx from 'clsx'
-
 import type { NextPage } from 'next'
 
+import { AosSample } from '@/components/features/AosSample'
+
 const Top: NextPage = () => {
-  return <div className={clsx('tw-p-8')}>Top</div>
+  return <AosSample />
 }
 
 export default Top
